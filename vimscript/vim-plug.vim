@@ -1,7 +1,7 @@
 "====
 "==== vim-plug 
 "====
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 "language_support
 Plug 'rust-lang/rust.vim'
@@ -10,9 +10,6 @@ Plug 'fatih/vim-go',{'do': ':GoUpdateBinaries'}
 
 "vim-startify
 Plug 'mhinz/vim-startify'
-
-"coc.nvim
-Plug 'neoclide/coc.nvim',{'branch':'release'}
 
 "vim-airline
 Plug 'vim-airline/vim-airline'
