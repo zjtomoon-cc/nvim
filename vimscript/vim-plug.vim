@@ -60,8 +60,6 @@ Plug 'preservim/nerdtree'
 
 
   " Auto Complete
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  " Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
   Plug 'wellle/tmux-complete.vim'
 
   " Snippets
@@ -164,6 +162,10 @@ Plug 'preservim/nerdtree'
   " Plug 'MarcWeber/vim-addon-mw-utils'
   " Plug 'kana/vim-textobj-user'
   " Plug 'roxma/nvim-yarp
-
-call plug#end()
+	"
+	" lspconfig
+	Plug 'williamboman/nvim-lsp-installer'
+	Plug 'neovim/nvim-lspconfig'
+	"
+	call plug#end()
 
