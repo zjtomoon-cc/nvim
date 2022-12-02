@@ -32,27 +32,4 @@ nmap <LEADER>t :sp<CR> :term<CR>
 nmap tt :NERDTree<CR>
 nmap te :CocCommand explorer<CR>
 nmap bc <C-o>
-noremap r :call CompileRun()<CR>
-function CompileRun()
-		exec "w"
-		if &filetype == 'c'
-			exec "!g++ % -o %<"
-			:sp
-			:term ./%<
-		elseif &filetype == 'cpp'
-			exec "!g++ % -wall -o %<"
-			:sp
-			:term ./%<
-		elseif &filetype == 'sh'
-			:!time bash %
-		elseif &filetype == 'go'
-			set splitbelow
-			:sp
-			:term go run .
-		elseif &filetype == 'rust'
-			set splitbelow
-			:sp
-			:term cargo run .
-		endif
-endfunction
 
