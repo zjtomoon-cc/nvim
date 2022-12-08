@@ -1,3 +1,6 @@
+local M = {}
+
+M.setup_lsp = function(attach, capabilities)
    local lsp_installer = require "nvim-lsp-installer"
 
    lsp_installer.settings {
@@ -31,3 +34,6 @@
       server:setup(opts)
       vim.cmd [[ do User LspAttachBuffers ]]
    end)
+end
+
+return M
