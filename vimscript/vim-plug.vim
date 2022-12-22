@@ -6,7 +6,7 @@ call plug#begin('~/.config/nvim/plugged')
 "language_support
 Plug 'rust-lang/rust.vim'
 Plug 'dense-analysis/ale'
-Plug 'fatih/vim-go',{'do': ':GoUpdateBinaries'}
+" Plug 'fatih/vim-go',{'do': ':GoUpdateBinaries'}
 
 "vim-startify
 Plug 'mhinz/vim-startify'
@@ -88,7 +88,7 @@ Plug 'preservim/nerdtree'
   Plug 'neoclide/jsonc.vim'
 
   " Go
-  Plug 'fatih/vim-go' , { 'for': ['go', 'vim-plug'], 'tag': '*' }
+  " Plug 'fatih/vim-go' , { 'for': ['go', 'vim-plug'], 'tag': '*' }
 
       " Markdown
   Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
