@@ -10,7 +10,7 @@ source ~/.config/nvim/vimscript/other.vim
 
 "config written in lua
 "lua require('')
-lua require('lsp.lsp-installer')
-lua require('lsp.lspconfig')
-lua require('comment.comment')
-lua require('cmp.nvim-cmp')
+"lsp config
+lua require('lsp/setup')
+lua require('lsp/nvim-cmp')
+lua require('lsp/ui')
