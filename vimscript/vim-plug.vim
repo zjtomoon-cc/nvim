@@ -178,8 +178,9 @@ Plug 'preservim/nerdtree'
 	" For vsnip users.
 	Plug 'hrsh7th/cmp-vsnip'
 	Plug 'hrsh7th/vim-vsnip'
-
-	" For luasnip users.
+  " lspkind
+  Plug 'onsails/lspkind-nvim'
+  "  " For luasnip users.
 	Plug 'L3MON4D3/LuaSnip'
 	Plug 'saadparwaiz1/cmp_luasnip'
 
