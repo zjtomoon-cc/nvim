@@ -1,7 +1,7 @@
 "====
 "==== vim-plug 
 "====
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 
 "language_support
 Plug 'rust-lang/rust.vim'
