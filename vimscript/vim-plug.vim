@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 
 "language_support
 Plug 'rust-lang/rust.vim'
+Plug 'simrat39/rust-tools.nvim'
 Plug 'dense-analysis/ale'
 " Plug 'fatih/vim-go',{'do': ':GoUpdateBinaries'}
 
